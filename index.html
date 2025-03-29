@@ -11,6 +11,21 @@
             padding: 0;
             font-size: 2.5vh;
         }
+        @media (max-width:768px){
+            .cont {
+                margin: 10vh;
+                padding: 0;
+                font-size: 2.5vh;
+            }
+        }
+        @media (max-width:320px) {
+            .cont {
+                width: 90%;
+                margin: 5vh;
+                padding: 0;
+                font-size: 2vh;
+            }
+        }
     </style>
 </head>
 <body>
@@ -21,9 +36,9 @@
                 <ul id="nav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="#service">Services</a></li>
-                    <li><a href="#project">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="skill.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
             <button id="btn" onclick="myfunction()">Menu</button>
@@ -32,7 +47,7 @@
         <div class="cont">
             <h2>Hello!, My Name is :</h2>
             <h1>Yousuf</h1>
-            <pre><h2>And I am A  <span style="color: #fd8801;">RESPONSIVE WEB DEVELOPER</span></h2></pre>
+            <h2>And I am A  <br><span style="color: #fd8801;"><strong>RESPONSIVE WEB DEVELOPER</strong></span></h2>
         </div>
     </div>
     <script src="portfolio.js"></script>

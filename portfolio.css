@@ -68,3 +68,8 @@ body {
         padding: 1vh;
     }
 }
+@media (max-width:425px) {
+    #Container {
+        width: 90%;
+    }
+}
