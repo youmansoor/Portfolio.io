@@ -11,3 +11,7 @@ let btn = document.getElementById("btn");
                 console.log('none');
             }
         }
+
+        function Submit(){
+            alert("Your Form is Submitted.")
+        }
